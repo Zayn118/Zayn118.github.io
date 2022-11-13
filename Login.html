@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <form action="">
+       <legend>Login Page</legend>
+       
+       <figure>
+           <img src="images/Login.png" width="10%" height="10%" alt="LOGIN BELOW">
+       </figure>
+
+       <p>
+
+        <label for="email"><b>Email</b></label> 
+        <br>
+        <input type="email" placeholder="Enter Email" name="email" required>
+        <br>
+        <br>
+        <label for="psw"><b>Password</b></label> 
+        <br>
+        <input type="password" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?![.\n]).{8,}" required> 
+        <br>
+        8 Characters Mininum Including a Number, Example: ZaynSaddique123
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <br>
+        <br>
+        <a href="portfollio.html"><b><i>Home</i></b></a>
+       </p>
+   </form> 
+</body>
+</html>

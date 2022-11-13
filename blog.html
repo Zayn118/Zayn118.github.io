@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <form action="" id="Blog">
+       <legend>Blog Page</legend>
+
+    <figure>
+        <img src="images/Writing.jpg" alt="BLOG ENTRY BELOW">
+    </figure>
+    <figcaption>
+        Remember to use upper and lower cases!
+    </figcaption>
+
+       <p>
+
+        <label for="title"><b>Title</b></label> 
+        <br>
+        <input type="text" placeholder="Enter Title" name="title" pattern="(?=.*[a-z])(?=.*[A-Z]).{1,}" required>
+        <br>
+        <br>
+        <!-- <label for="post"><b>Blog Post</b></label> 
+        <br>
+        <input type="text" placeholder="Enter Blog Entry" name="post" pattern="(?=.*[a-z])(?=.*[A-Z]).{25,}" required>
+        <br>
+        Please have at least 25 letters!
+        <br>-->  
+        <textarea rows="4" cols="64" name="post" form="Blog" placeholder="Write Blog Here"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <br>
+        <br>
+        <a href="portfollio.html"><b><i>Home</i></b></a>
+       </p>
+   </form> 
+  
+
+</body>
+</html>

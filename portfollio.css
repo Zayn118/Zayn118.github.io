@@ -1,0 +1,198 @@
+/** List Items **/
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+header li
+{
+    display: inline;
+    padding: 1%
+}
+
+footer li
+{
+    display: inline;
+    padding: 1%;
+}
+
+#experience li, #education li, #projects li
+{
+    padding: 3%;
+}
+
+
+/** Article Styling**/
+
+article
+{
+    height: 50vh;
+    padding: 10%;
+    position: relative;
+}
+
+/** Background Styling **/
+
+article#welcome
+{
+    background-image: url(images/Cyber-Phone-Wallpaper.png);
+}
+article#bck, article#education, article#projects
+{
+    background-image: url(images/CircuitBoard-LtGrey-Wide.jpg);
+}
+
+article#experience, article#skills
+{
+    background-color: #314455;
+}
+
+/** image styling **/
+
+article#welcome img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills img
+{
+    float: right;
+    margin: 1%;
+}
+
+
+/** Setting Margins **/
+
+article#experience
+{
+    margin-top: 0%;
+    height: 100vh;
+}
+article#projects
+{
+    margin-top: 0%;
+    height: 50vh;
+}
+
+/** Div Styling **/ 
+
+div
+{
+    background-color: #97aabd;
+    color: white;
+    border: 3pt solid white;
+    font-size: 150%;
+}
+
+/** Section Styling **/
+p
+{
+    font-weight: 400;
+}
+
+figure
+{
+   margin: 0%;
+   
+}
+
+/** Text alligning **/
+
+#aboutMe
+{
+    text-align: center;
+    float: right;
+}
+
+#aboutMe hr
+{
+    width: 20%;
+}
+
+#welcome h2
+{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 300%;
+}
+
+
+#experience h3, #skills h3, #education h3, #projects h3
+{
+    text-align: center;
+    font-size: 200%;
+}
+
+/** hr length **/
+
+hr
+{
+    width: 20%;
+}
+
+/** Font Styling for name in nav **/
+
+#name
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    color: #a2eacb;
+    padding: 1%;
+}
+
+/** Footer Styling **/
+
+footer
+{
+    background-color: #551fbd;
+    padding: 1%;
+}
+
+
+footer a
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #a2eacb;
+    padding: 1%;
+}
+
+body
+{
+    margin: 0;
+}
+
+/** Anchor Link Styling **/
+
+header a
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #a2eacb;
+    padding: 1%;
+    border-radius: 20pt;
+}
+
+a:hover
+{
+    background-color: #8c4eff;
+    transition: .4s;
+}
+
+/** Nav Styling **/
+nav
+{
+    background-color: #551fbd;
+    padding: 1%;
+}
+
